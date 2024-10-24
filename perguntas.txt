@@ -3,10 +3,15 @@
 - Commit: salva remotamente as mudanças locais feitas pelo desenvolvedor.
 - Push  : publica as mudanças no repositório remoto git, tornando-as acessíveis aos demais colaboradores.
 - Pop   : usado para aplicar as mudanças de uma stash e já remove a stash, ou seja depois de aplicada, a stash já some da lista de stash disponíveis.
+
 2 – Quais sáo as vantagens de usar Branchs num repositório git?
 - O repositório fica mais organizado de forma que as mudanças aplicadas por features são mais facilmente rastreáveis.
 Isso também garante mais segurança para o software de forma que somente features ou bugfixes completamente desenvolvidos serão submetidos ao "merge" para serem incorporados ao sistema.
-3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
-que consistem e como podem ser resolvidos esses conflitos?
+
+3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?
+- Conflitos são divergências de conteúdos de um mesmo arquivo, geralmente resultante de comparar o mesmo arquivo com versões diferentes. Isso significa que se, por exemplo eu desenvolvo a função X(int a, int b) para retornar a + b, e no arquivo da branch main a função já tinha sido desenvolvida retornando a * b, isso gera um conflito. 
+Conflitos devem ser discutidos e resolvidos entre a equipe de forma à aplicar a solução mais recente e correta para o software. Pelo git ou pelo vs code se dá para verificar os conflitos e resolvê-los.
+
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
+- 
