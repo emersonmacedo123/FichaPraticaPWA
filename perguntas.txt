@@ -14,4 +14,5 @@ Conflitos devem ser discutidos e resolvidos entre a equipe de forma à aplicar a
 
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
-- 
+- Clone resulta em 'baixar' o arquivo para o disco local no computador de quem roda esse comando, mas ainda sim uma cópia linkada com o repositório git. 
+- Git Fork cria uma nova cópia não linkada com o git repo.
